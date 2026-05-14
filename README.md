@@ -33,7 +33,7 @@ A conversational AI chatbot built with **Streamlit**, **LangChain**, and **Groq 
  
 ```bash
 git clone https://github.com/Avi9482/Multi-Session-RAG-Integrated-chatbot.git
-cd Avi9482
+
 ```
  
 ### 2. Install dependencies
@@ -121,20 +121,6 @@ python-dotenv
 sentence-transformers
 ```
  
----
- 
-## 🔒 Notes
- 
-- The `a.env` file containing your API key should **never** be committed to version control. Add it to `.gitignore`.
-- The vector store is rebuilt only when the set of uploaded files changes, avoiding redundant reprocessing.
-- Switching sessions or creating a new session while a PDF is uploaded is intentionally blocked — remove the file first to prevent context bleed between sessions.
----
- 
-## 📄 License
- 
-This project is licensed under the [MIT License](LICENSE).
- 
----
  
 ## 🙌 Acknowledgements
  
