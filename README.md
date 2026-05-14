@@ -55,7 +55,7 @@ GROQ_API_KEY=your_groq_api_key_here
 ### 4. Run the app
  
 ```bash
-streamlit run final_x.py
+streamlit run main.py
 ```
  
 ---
