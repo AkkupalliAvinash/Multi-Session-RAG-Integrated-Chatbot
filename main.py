@@ -45,7 +45,7 @@ llm = ChatGroq(
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
  
-st.title("BIG Chuchi BIG 🍑 Chatbot 💦")
+st.title("Multi Session ChatBot")
 st.write("Multi‑Session Chat with Optional PDF RAG powered by LangChain’s message history")
 
 # ================== STATE INIT ==================
